@@ -2,6 +2,8 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("hophiphip");
 MODULE_DESCRIPTION("Just a Linux Module");
 MODULE_VERSION("0.0.1");
 
@@ -11,7 +13,7 @@ static int  __init jlm_init(void) {
 }
 
 static void __exit jlm_exit(void) {
-  printk(KERN_INFO "JML Exited\n");
+  printk(KERN_INFO "JLM Exited\n");
 }
 
 module_init(jlm_init);
