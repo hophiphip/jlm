@@ -1,1 +1,0 @@
-cmd_/home/hophiphip/dev/C/jlm/jlm.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/hophiphip/dev/C/jlm/jlm.ko /home/hophiphip/dev/C/jlm/jlm.o /home/hophiphip/dev/C/jlm/jlm.mod.o;  true

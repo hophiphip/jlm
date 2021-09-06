@@ -1,1 +1,0 @@
-cmd_/home/hophiphip/dev/C/jlm/Module.symvers := sed 's/ko$$/o/' /home/hophiphip/dev/C/jlm/modules.order | scripts/mod/modpost  -a   -o /home/hophiphip/dev/C/jlm/Module.symvers -e -i Module.symvers  -N -T -
