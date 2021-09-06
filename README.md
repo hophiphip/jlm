@@ -4,7 +4,7 @@ Just a Linux Module
 # Requirements
 `build-essential` `linux-headers`
 
-# Usage
+# Installation
 ### Compile
 ```bash
   make 
@@ -21,3 +21,26 @@ Just a Linux Module
 ```bash
   make remove
 ```
+
+# Usage
+### Try as a normal user
+```bash
+  $ cat /dev/jlm
+```
+Will output:
+```text
+jlm device
+jlm device
+jlm device
+...
+```
+
+### As root
+```bash
+  $ sudo cat /dev/jlm
+```
+Or
+```bash
+  # cat /dev/jlm
+```
+Will output nothing
