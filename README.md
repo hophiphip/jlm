@@ -17,7 +17,8 @@ Just a Linux Module
 ```bash
   make device
 ```
-### Remove module
+
+# Uninstallation
 ```bash
   make remove
 ```
