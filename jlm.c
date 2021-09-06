@@ -88,7 +88,7 @@ static int device_open(struct inode *inode, struct file *f)
   return 0;
 }
 
-static int device_release(struct inode *, struct file *)
+static int device_release(struct inode *inode, struct file *f)
 {
   // Decrement usage count
   --device_open_count;
